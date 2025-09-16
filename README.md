@@ -1,12 +1,12 @@
-# 🎥** Sentiment Analysis on IMDB Movie Reviews  **
+# 🎥**Sentiment Analysis on IMDB Movie Reviews**
 
-## 📌 **Project Overview  **
+## 📌 **Project Overview**
 This project applies **sentiment analysis** to the IMDB movie reviews dataset to classify reviews as **positive** or **negative**. The goal is to explore the dataset, preprocess the textual data, build multiple machine learning models, and evaluate their performance using several metrics.  
 The analysis follows a complete **data analytics pipeline** — from **data preprocessing** to **exploratory data analysis (EDA)**, **model training**, and **performance comparison**.  
 
 ---
 
-## 📊 **Dataset  **
+## 📊 **Dataset**
 - **Source:** IMDB movie review dataset  
 - **Size:** 40,000 samples  
 - **Attributes:**
@@ -37,19 +37,19 @@ The dataset is **balanced**, with nearly equal proportions of positive and negat
 
 ---
 
-## 🛠️ **Methodology ** 
-### 1️⃣ **Data Preprocessing  **
+## 🛠️ **Methodology** 
+### 1️⃣ **Data Preprocessing **
 - Checked for missing and duplicate rows (removed 277 duplicates).  
 - Converted text to lowercase.  
 - Removed punctuation, stopwords, and applied stemming.  
 - Applied **TF-IDF Vectorization** to transform text into numerical features.  
 
-### 2️⃣ **Exploratory Data Analysis (EDA)  **
+### 2️⃣ **Exploratory Data Analysis (EDA)**
 - Visualized label distribution using **pie charts** and **bar plots**.  
 - Analyzed average text length per sentiment using **box plots**.  
 - Generated **word clouds** to identify most frequent positive and negative words.  
 
-### 3️⃣ **Model Training & Evaluation  **
+### 3️⃣ **Model Training & Evaluation**
 - Split data into **80% training** and **20% testing** sets.  
 - Implemented four machine learning classifiers.  
 - Computed evaluation metrics and visualized results:  
@@ -59,12 +59,12 @@ The dataset is **balanced**, with nearly equal proportions of positive and negat
 
 ---
 
-## 📈 **Results ** 
+## 📈 **Results** 
 **Logistic Regression** achieved the highest performance across all metrics and is recommended as the best model for this dataset.
 
 ---
 
-## 📊 **Visualizations ** 
+## 📊 **Visualizations** 
 - **Word Clouds:** Show most frequent positive and negative words.  
 - **ROC Curves:** Compare model ability to distinguish between classes.  
 - **Heatmap:** Displays performance metrics across models for easier comparison.  
