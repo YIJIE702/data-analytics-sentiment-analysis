@@ -38,7 +38,7 @@ The dataset is **balanced**, with nearly equal proportions of positive and negat
 ---
 
 ## 🛠️ **Methodology** 
-### 1️⃣ **Data Preprocessing **
+### 1️⃣ **Data Preprocessing**
 - Checked for missing and duplicate rows (removed 277 duplicates).  
 - Converted text to lowercase.  
 - Removed punctuation, stopwords, and applied stemming.  
