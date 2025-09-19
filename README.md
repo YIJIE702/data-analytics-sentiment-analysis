@@ -80,4 +80,5 @@ The dataset is **balanced**, with nearly equal proportions of positive and negat
 ---
 
 ## 📜 **License**
-This project is licensed under the [MIT License](./LICENSE).  
+This project is for educational purposes under NMJ40203 - Data Analytics coursework.
+You may modify and use this project for learning, but proper credit to the author is appreciated.
