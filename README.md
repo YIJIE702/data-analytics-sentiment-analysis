@@ -72,7 +72,7 @@ The dataset is **balanced**, with nearly equal proportions of positive and negat
 
 ---
 
-📌 **Conclusion**
+## 📌 **Conclusion**
 - Logistic Regression provided the most accurate and reliable sentiment classification model.
 - EDA revealed that positive reviews tend to be slightly longer than negative ones.
 - The dataset was well-balanced, eliminating the need for resampling techniques.
